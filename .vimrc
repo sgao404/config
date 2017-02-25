@@ -47,6 +47,9 @@ nnoremap <C-H> <C-W><C-H>
 set foldmethod=indent
 set foldlevel=99
 
+set  rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+set laststatus=2
+set t_Co=256
 au BufNewFile,BufRead *.py
     \set tabstop=4
     \set softtabstop=4
