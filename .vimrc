@@ -65,9 +65,9 @@ let python_highlight_all=1
 syntax on
 
 " autocmd vimenter * NERDTree
-set background=dark
-colorscheme solarized
-call togglebg#map("<F5>")
+" set background=dark
+" colorscheme solarized
+" call togglebg#map("<F5>")
 
 set nu
 
